@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="TeliaTv login" timestamp="2022-10-05T15:54:26" time="13.149" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="TeliaTv login "/>
+      <property name="capabilities" value="chrome.106_0_5249_91.windows"/>
+      <property name="file" value=".\test\specs\teliaTVSit.js"/>
+    </properties>
+    <testcase classname="chrome.106_0_5249_91.windows.TeliaTv_login_" name="should login with valid credentials" time="13.147">
+      <failure/>
+      <error message="Can't call setValue on element with selector &quot;#Username&quot; because element wasn't found"/>
+      <system-out><![CDATA[
+COMMAND: GET /session/1dcdd5d246d8f37b824b2701640660cd/title - {}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/element - {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/element - {"using":"css selector","value":"#Username"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/element - {"using":"css selector","value":"#Password"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/element - {"using":"css selector","value":"#login"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/url - {"url":"https://tv-sit.telia.lt/login"}
+RESULT: {}
+COMMAND: GET /session/1dcdd5d246d8f37b824b2701640660cd/title - {}
+RESULT: {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+RESULT: {"using":"css selector","value":"#Username"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"#Username"}
+RESULT: {"using":"css selector","value":"#Password"}
+RESULT: {"using":"css selector","value":"#login"}
+RESULT: {"url":"https://tv-sit.telia.lt/login"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+RESULT: {"using":"css selector","value":"#Username"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"#Username"}
+RESULT: {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+RESULT: {"using":"css selector","value":"#Username"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"#Username"}
+RESULT: {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+RESULT: {"using":"css selector","value":"#Username"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"#Username"}
+RESULT: {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+RESULT: {"using":"css selector","value":"#Username"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"#Username"}
+RESULT: {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+RESULT: {"using":"css selector","value":"#Username"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"#Username"}
+RESULT: {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+RESULT: {"using":"css selector","value":"#Username"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"#Username"}
+RESULT: {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+RESULT: {"using":"css selector","value":"#Username"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"#Username"}
+RESULT: {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+RESULT: {"using":"css selector","value":"#Username"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"#Username"}
+RESULT: {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+RESULT: {"using":"css selector","value":"#Username"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"#Username"}
+RESULT: {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+RESULT: {"using":"css selector","value":"#Username"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"#Username"}
+RESULT: {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+RESULT: {"using":"css selector","value":"#Username"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"#Username"}
+RESULT: {"using":"css selector","value":"[data-w-button=\"loginButton\"]"}
+RESULT: {"using":"css selector","value":"#Username"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"#Username"}
+RESULT: {"using":"css selector","value":"#Username"}
+COMMAND: POST /session/1dcdd5d246d8f37b824b2701640660cd/elements - {"using":"css selector","value":"#Username"}
+COMMAND: DELETE /session/1dcdd5d246d8f37b824b2701640660cd - {}
+RESULT: {"using":"css selector","value":"#Username"}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Can't call setValue on element with selector "#Username" because element wasn't found
+    at implicitWait (C:\tools\Test2\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+    at async Element.elementErrorHandlerCallbackFn (C:\tools\Test2\node_modules\webdriverio\build\middlewares.js:20:29)
+    at async Element.wrapCommandFn (C:\tools\Test2\node_modules\@wdio\utils\build\shim.js:137:29)
+    at async Context.<anonymous> (C:\tools\Test2\test\specs\teliaTVSit.js:13:9)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

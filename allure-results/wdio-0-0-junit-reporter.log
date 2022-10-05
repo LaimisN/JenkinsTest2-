@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="First Jenkins tests" timestamp="2022-10-05T15:54:26" time="17.943" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="First Jenkins tests"/>
+      <property name="capabilities" value="chrome.106_0_5249_91.windows"/>
+      <property name="file" value=".\test\specs\basic.js"/>
+    </properties>
+    <testcase classname="chrome.106_0_5249_91.windows.First_Jenkins_tests" name="should have the right title" time="17.891">
+      <failure/>
+      <error message="Expected values to be strictly equal:&#xA;+ actual - expected&#xA;&#xA;+ 'WebdriverIO · Next-gen browser and mobile automation test framework for Node.js | WebdriverIO'&#xA;- 'WebdriverIO · Next-gen browser automation test framework for Node.js'      &#xA;      actual expected&#xA;      &#xA;      'WebdriverIO · Next-gen browser and mobile automation test framework for Node.js | WebdriverIO'&#xA;      "/>
+      <system-out><![CDATA[
+COMMAND: POST /session/fb8fc5157772c83584b5e8eb316017c9/url - {"url":"https://webdriver.io/"}
+RESULT: {"url":"https://webdriver.io/"}
+COMMAND: GET /session/fb8fc5157772c83584b5e8eb316017c9/title - {}
+RESULT: {}
+COMMAND: DELETE /session/fb8fc5157772c83584b5e8eb316017c9 - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
++ actual - expected
+
++ 'WebdriverIO · Next-gen browser and mobile automation test framework for Node.js | WebdriverIO'
+- 'WebdriverIO · Next-gen browser automation test framework for Node.js'
+    at Context.<anonymous> (C:\tools\Test2\test\specs\basic.js:13:16)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
