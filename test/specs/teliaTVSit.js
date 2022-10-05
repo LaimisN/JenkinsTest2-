@@ -6,6 +6,7 @@ describe('TeliaTv login ', () => {
         const loginButton = $('[data-w-button="loginButton"]');
         loginButton.click();
         // await browser.pause(4000);
+        // await browser.pause(4000);
         const inputUsername = $('#Username')
         const inputPassword = $('#Password')
         const SecondLoginButton = $('#login')
